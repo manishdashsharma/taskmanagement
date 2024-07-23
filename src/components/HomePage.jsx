@@ -1,5 +1,7 @@
-import { FaTasks, FaClock, FaCheckCircle, FaCalendarAlt, FaDollarSign } from 'react-icons/fa';
+import { FaTasks, FaClock, FaCheckCircle, FaDollarSign } from 'react-icons/fa';
 import { Line, Bar } from 'react-chartjs-2';
+import { FaPersonHarassing } from "react-icons/fa6";
+
 import 'chart.js/auto';
 
 const dateWiseData = {
@@ -85,11 +87,11 @@ function HomePage() {
           </div>
         </div>
         <div className="relative flex items-center p-3 bg-gray-100 rounded-lg shadow-sm hover:bg-gray-200 transition">
-          <FaCalendarAlt className="text-xl text-gray-600 mr-2" />
+          <FaPersonHarassing className="text-xl text-gray-600 mr-2" />
           <div>
             <p className="text-xl font-bold">60</p>
             <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity bg-gray-300 rounded-lg">
-              <p className="text-lg font-semibold">Tasks (Last 30 Days)</p>
+              <p className="text-lg font-semibold">Assinged Tasks</p>
             </div>
           </div>
         </div>

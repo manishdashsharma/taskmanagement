@@ -10,7 +10,7 @@ const App = () => (
       <Navbar />
       <main className="flex-1 p-6 bg-gray-50 overflow-y-auto">
         <Routes>
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/tasks" element={<TaskTable />} />
           <Route path="/settings" element={<Settings />} />
         </Routes>
